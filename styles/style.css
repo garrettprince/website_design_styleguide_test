@@ -1,0 +1,170 @@
+/* Navigation */
+body {
+    margin: 0 auto;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+nav {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0px auto;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    padding: 0px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 20%;
+}
+
+.menu_items ul {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.menu_items li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+#home_link {
+    text-align: left;
+    margin: 28px 80px;
+}
+
+#fonts_link {
+    text-align: right;
+    float: right;
+    margin: 28px 80px;
+    
+}
+
+
+#colors_link {
+    text-align: right;
+    float: right;
+    margin: 28px 80px;
+}  
+
+
+
+/* Site Title */
+h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 80px auto;
+}
+
+/* Colors Section */
+#colors {
+    display: block;
+    width: 80%;
+    height: 310px;
+    margin: 0 auto;
+}
+
+.color_blocks {
+    display: inline-block;
+    text-align: left;
+}
+
+#purple {
+    background-color: #544FDB;
+    width: 33%;
+    height: 180px;
+    border-radius: 20px;
+
+}
+
+.hexcode {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rgb {
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#green {
+    background-color: #2DC920;
+    width: 33%;
+    height: 180px;
+    border-radius: 20px; 
+    margin: 0 auto;
+}
+
+#blue {
+    background-color: #1D66EF;
+    width: 33%;
+    height: 180px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+
+
+/* Fonts Section */
+#fonts {
+    display: block;
+    width: 80%;
+    height: 310px;
+    margin: 0 auto;
+}
+
+#fonts li {
+    list-style: none;
+    text-align: left;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.subheading {
+    font-weight: normal;
+}
+
+.paragraph {
+    font-weight: lighter;
+}
+
+#font-one {
+    font-family: "Work Sans";
+}
+
+#font-one p .paragraph {
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+#font-two {
+    font-family: Merriweather;
+}
+
+#font-three {
+    font-family: "Merriweather Sans";
+}
